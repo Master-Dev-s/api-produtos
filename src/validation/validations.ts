@@ -1,4 +1,4 @@
-import { ProductRequest } from "../interfaces/ProductInterface";
+import { ProductRequest } from "../domain/entity/ProductRequest";
 import { Db, tabelaProdutos } from "../db/db";
 
 export function validationProductData(requestBody: ProductRequest) {
